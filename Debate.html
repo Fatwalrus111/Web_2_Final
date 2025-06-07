@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sketch Layout</title>
+  <link rel="stylesheet" href="https://use.typekit.net/yyp8ovz.css">
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.11.0/tsparticles.bundle.min.js"></script>
+</head>
+<body>
+
+  <div id="tsparticles"></div>
+
+  <header class="header">
+    <div class="title-rem">
+      <h1>Debate</h1>
+    </div>
+  </header>
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Hobies.html">Hobbies</a></li>
+      <li><a href=Web_Design.html>Web Design</a></li>
+      <li><a class="active" href="Debate.html">Debate</a></li>
+      <li><a href="About.html">FAQ</a></li>
+    </ul>
+  </nav>
+
+  <div class="gradiant_1"></div>
+ 
+
+<section>
+  <div class="flip-section">
+
+  <div class="flip-box">
+    <div class="flip-box-inner">
+      <div class="flip-box-front">
+      Extemp
+      </div>
+      <div class="flip-box-back">
+      Fred started competing in Extemp his Sophmore year. With his friend and colleuge Andrew they founded the schools speech team. Last year,
+      Fred advanced to state finals and qualified for nationals as well. This year, Fred placed third at state and qualified for nationals again,
+      where he hopes to make it to elimination rounds.
+      </div>
+    </div>
+  </div>
+
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="images/Debate.jpg" alt="Nat_Debate"
+        style="width:100%; height: 100%;">
+      </div>
+      <div class="flip-card-back">
+        This is a photo of Fred at national qualifiers
+      </div>
+    </div>
+  </div>
+
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="images/IMG_5343.webp" alt="state_Debate"
+        style="width:100%; height: 100%;">
+      </div>
+      <div class="flip-card-back">
+        EPS debate co-champs Alex and Audredy with EPS debate co-champs Cyrus and Fred
+      </div>
+    </div>
+  </div>
+  <div class="flip-box">
+    <div class="flip-box-inner">
+      <div class="flip-box-front">
+        Public Forum
+      </div>
+      <div class="flip-box-back">
+        Last year, Fred succesfully competed in novice Public forum, co-champing one tournament, advanced to finals in the other, and winning
+        the best speaker award in both. This year, with his partner Cyrus Oomen, Fred co-champed states and qualified for the prestigious
+        Tournament of Champions. Fred also placed second best speaker in the state of Washington.
+      </div>
+    </div>
+  </div>
+</div>
+
+</section>
+
+  <script>
+    tsParticles.load("tsparticles", {
+      fullScreen: { enable: true, zIndex: -1 },
+      particles: {
+        number: { value: 60, density: { enable: true, area: 800 } },
+        color: { value: "#0B5351" },
+        shape: { type: "circle" },
+        opacity: { value: 1 },
+        size: { value: 5 },
+        move: {
+          enable: true,
+          speed: 2,
+          direction: "none",
+          outModes: { default: "bounce" }
+        },
+        links: {
+          enable: true,
+          distance: 120,
+          color: "#0B5351",
+          opacity: 1,
+          width: 2
+        }
+      },
+      interactivity: {
+        events: {
+          onHover: { enable: true, mode: "repulse" },
+          onClick: { enable: true, mode: "push" },
+          resize: true
+        },
+        modes: {
+          repulse: { distance: 100 },
+          push: { quantity: 4 }
+        }
+      },
+      background: { color: "092327" }
+    });
+  </script>
+
+</body>
+</html>
+
+
+
